@@ -107,13 +107,23 @@ module.exports = class BinarySearchTree {
   }
 
   min() {
-    throw new NotImplementedError('Not implemented');
-    // remove line with error and write your code here
+    if(this.#root == null) return null
+
+    let currNode = this.#root
+    while(currNode.left != null){
+      currNode = currNode.left
+    }
+    return currNode.data
   }
 
   max() {
-    throw new NotImplementedError('Not implemented');
-    // remove line with error and write your code here
+    if(this.#root == null) return null
+
+    let currNode = this.#root
+    while(currNode.right != null){
+      currNode = currNode.right
+    }
+    return currNode.data
   }
 
 }
