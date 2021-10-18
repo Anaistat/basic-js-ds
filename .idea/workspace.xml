@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2df75e34-d5c1-49b4-9a51-2e6db87fd524" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/st-queue.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/st-queue.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/binary-search-tree.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/binary-search-tree.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,12 +17,17 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/st-queue.js">
+        <entry file="file://$PROJECT_DIR$/src/binary-search-tree.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="135">
+              <caret line="36" column="3" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/extensions/list-tree.js">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -36,12 +41,14 @@
         <option value="$PROJECT_DIR$/src/st-remove-from-list.js" />
         <option value="$PROJECT_DIR$/src/st-stack.js" />
         <option value="$PROJECT_DIR$/src/st-queue.js" />
+        <option value="$PROJECT_DIR$/src/binary-search-tree.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="672" />
     <option name="y" value="23" />
-    <option name="width" value="1440" />
+    <option name="width" value="768" />
     <option name="height" value="808" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -56,6 +63,11 @@
             <path>
               <item name="basic-js-ds" type="b2602c69:ProjectViewProjectNode" />
               <item name="basic-js-ds" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="basic-js-ds" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basic-js-ds" type="462c0819:PsiDirectoryNode" />
+              <item name="extensions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="basic-js-ds" type="b2602c69:ProjectViewProjectNode" />
@@ -103,17 +115,19 @@
       <workItem from="1634211489991" duration="2735000" />
       <workItem from="1634290384327" duration="234000" />
       <workItem from="1634459891887" duration="316000" />
-      <workItem from="1634506653891" duration="538000" />
+      <workItem from="1634506653891" duration="731000" />
+      <workItem from="1634542831471" duration="374000" />
+      <workItem from="1634572523578" duration="1208000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6377000" />
+    <option name="totallyTimeSpent" value="8152000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="808" extended-state="1" />
+    <frame x="672" y="23" width="768" height="808" extended-state="1" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.04016064" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -127,7 +141,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.10428572" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.15714286" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -165,13 +179,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/binary-search-tree.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/st-queue.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="242">
+          <caret line="50" column="3" selection-start-line="50" selection-start-column="3" selection-end-line="50" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extensions/list-tree.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/binary-search-tree.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="36" column="3" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
         </state>
       </provider>
     </entry>
